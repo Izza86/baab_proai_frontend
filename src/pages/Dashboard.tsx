@@ -162,14 +162,7 @@ export const Dashboard: React.FC = () => {
             </Button>
           </div>
         </CardBody>
-        <CardFooter>
-          <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)', marginRight: 'auto' }}>
-            Phase 2 & Phase 3 Verified
-          </span>
-          <Button variant="outline" size="sm" onClick={() => window.open('https://vitejs.dev', '_blank')}>
-            Documentation
-          </Button>
-        </CardFooter>
+       
       </Card>
 
       {/* Modal Primitive Demo */}
