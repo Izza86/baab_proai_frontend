@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Fix deps.py JWT base64",
+			"type": "shell",
+			"command": "python -c \"content = open(r'E:/baab_proai_backend/app/api/deps.py').read(); print(content[:100])\"",
+			"group": "build"
+		},
+		{
+			"label": "Fix backend deps.py",
+			"type": "shell",
+			"command": "python fix_deps.py",
+			"group": "build"
+		}
+	]
+}
